@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amir's Jungle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-stack">
+        <div class="title-box">
+            <h1>Welcome to Amir's Jungle!</h1>
+            <h2>Choose your animal of choice and hear what happens</h2>
+        </div>
+        <div class="keyboard-help">
+            <h3>Keyboard Shortcuts</h3>
+            <p>
+                <strong>l</strong> - Lion &nbsp;
+                <strong>e</strong> - Elephant &nbsp;
+                <strong>m</strong> - Monkey &nbsp;
+                <strong>p</strong> - Parrot &nbsp;
+                <strong>t</strong> - Tiger &nbsp;
+                <strong>f</strong> - Frog &nbsp;
+                <strong>s</strong> - Snake
+            </p>
+            <p>Press a key or click an animal to play its sound and animation!</p>
+        </div>
+    </div>
+    <div class="jungle-container">
+        <div class="animal" data-animal="lion" tabindex="0">
+            <img src="images/lion.jpg" alt="Lion">
+            <p>Lion</p>
+        </div>
+        <div class="animal" data-animal="elephant" tabindex="0">
+            <img src="images/elephant.jpg" alt="Elephant">
+            <p>Elephant</p>
+        </div>
+        <div class="animal" data-animal="monkey" tabindex="0">
+            <img src="images/monkey.jpg" alt="Monkey">
+            <p>Monkey</p>
+        </div>
+        <div class="animal" data-animal="parrot" tabindex="0">
+            <img src="images/parrot.jpg" alt="Parrot">
+            <p>Parrot</p>
+        </div>
+        <div class="animal" data-animal="tiger" tabindex="0">
+            <img src="images/tiger.jpg" alt="Tiger">
+            <p>Tiger</p>
+        </div>
+        <div class="animal" data-animal="frog" tabindex="0">
+            <img src="images/frog.jpg" alt="Frog">
+            <p>Frog</p>
+        </div>
+        <div class="animal" data-animal="snake" tabindex="0">
+            <img src="images/snake.jpg" alt="Snake">
+            <p>Snake</p>
+        </div>
+    </div>
+    <audio id="background-music" src="sounds/background.mp3" loop></audio>
+    <script src="script.js"></script>
+    
+    <div id="animal-fade-bg"></div>
+
+
+</body>
+</html>
